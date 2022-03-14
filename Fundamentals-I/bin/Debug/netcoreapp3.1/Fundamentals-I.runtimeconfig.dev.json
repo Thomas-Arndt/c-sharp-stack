@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/bebop/.dotnet/store/|arch|/|tfm|",
+      "/home/bebop/.nuget/packages"
+    ]
+  }
+}
