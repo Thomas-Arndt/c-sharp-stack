@@ -6,12 +6,12 @@ namespace Fundamentals_I
     {
         static void Main(string[] args)
         {
-            for(int i=1; i<=255; i++) {
-                Console.WriteLine(i);
+            for(int j=1; j<=255; j++) {
+                Console.WriteLine(j);
             }
-            for(int i=1; i <= 100; i++) {
-                if((i%3 == 0 || i%5 == 0) && i%15 != 0) {
-                    Console.WriteLine(i);
+            for(int k=1; k <= 100; k++) {
+                if((k%3 == 0 || k%5 == 0) && k%15 != 0) {
+                    Console.WriteLine(k);
                 }
             }
             int i = 1;
