@@ -1,0 +1,10 @@
+@model string[]
+
+<div>
+    <h2>Here are some users!</h2>
+    <ul>
+        @foreach(string name in Model) {
+            <li>@name</li>
+        }
+    </ul>
+</div>
