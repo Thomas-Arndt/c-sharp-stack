@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form action="formSubmit" method="post" class="d-flex flex-column col-6 mx-auto mt-5 gap-3">
+    <input type="text" name="name" id="name" placeholder="Enter your name.">
+    <select name="location" id="location">
+        <option value="Here">Here</option>
+        <option value="There">There</option>
+        <option value="Anywhere">Anywhere</option>
+    </select>
+    <select name="language" id="language">
+        <option value="C#">C#</option>
+        <option value="Node">Node</option>
+        <option value="Java">Java</option>
+    </select>
+    <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Comment (Optional)"></textarea>
+    <input type="submit" value="Submit">
+</form>
