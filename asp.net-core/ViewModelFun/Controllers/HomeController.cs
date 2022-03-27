@@ -52,7 +52,7 @@ namespace ViewModelFun.Controllers
         }
 
         [HttpGet("user")]
-        public IActionResult User()
+        public IActionResult OneUser()
         {
             User user = new User()
             {
